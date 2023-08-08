@@ -1,0 +1,7 @@
+This node.js web app provides a conversational experience that replaces open-ended survey questions.
+A large language model is used to produce probing questions customized to respondent's feedback.
+This app can be embedded in a web survey tool like Qualtrics, or used as standalone.
+
+Example study: https://drive.google.com/file/d/1jaEvO49Td1IQ5XzuXiZ1mGnEMkOZ03Cm/view?usp=sharing
+
+Demo using Qualtrics: https://bit.ly/chatty-preview

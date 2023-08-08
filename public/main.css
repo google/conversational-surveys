@@ -1,0 +1,130 @@
+/* Copyright 2023 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.*/
+
+textarea{
+    font-family: "Helvetica";
+
+    padding: 0.50rem;
+    border-radius: 0.5rem;
+    border: 0.15rem solid lightgrey;    
+    width:100%;
+    box-sizing: border-box;
+    outline: none;
+    resize:none;
+    height: 5em;
+}
+
+@media only screen and (max-width: 600px) { 
+    textarea{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) { 
+    textarea{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+  .botimg{
+    width:1.5rem;
+    height:1.5rem;
+    content:url(/public/bot.png);
+  }
+
+  .replyimg{
+    width:1.5rem;
+    height:1.5rem;
+    content:url(/public/reply.png);
+  }
+}
+
+@media only screen and (min-width: 600px) { 
+    .botimg{
+      width:4rem;
+      height:4rem;
+      content:url(/public/bot.png);
+    }
+  
+    .replyimg{
+      width:3rem;
+      height:3rem;
+      content:url(/public/reply.png);
+    }
+  }
+
+  .replybutton{
+    background:none;
+    border:none;
+    padding:0px
+  }
+
+   .nextbutton{
+    background-color:#276be8;
+    color:white;
+    border-style:none;
+    border-radius: 0.3rem;
+    width:3rem;
+    height:2rem
+   }
+  .bubblesimg{
+    width:2rem;
+    height:2rem;
+    content:url(https://google.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_cZtJdg3eqEDv7Wm);
+  }
+
+  .previousQtextarea{
+    background:whitesmoke;
+  }
+
+  .previousRtextarea{
+    background:none;
+  }
+
+  .currentQtextarea{
+    background:whitesmoke;
+  }
+
+  .currentRtextarea{
+    background:none;
+    display:block;
+    word-wrap:break-word;
+  }
+
+  .thinkingdiv{
+    background:whitesmoke;
+    padding: 0.50rem;
+    border-radius: 0.5rem;
+    border: 0.15rem solid lightgrey;    
+    width:100%;
+    box-sizing: border-box;
+    outline: none;
+    resize:none;
+  }
+
+
+  table, th, td {
+    /*border: 1px solid black;*/
+    border:none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    padding: 0; 
+    margin: 0;
+    text-align: center; 
+    vertical-align: middle;
+  }
+  table {
+    width:100%;
+  }
