@@ -16,8 +16,7 @@ require('dotenv').config();
 
 const { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } = require("@google/generative-ai");
 
-//const API_KEY = process.env.API_KEY;
-const API_KEY = 'AIzaSyCs3umxyloR2Fxm2G2km0eEULFWBSVN3jo'
+const API_KEY = process.env.API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 const safetySettings = [
