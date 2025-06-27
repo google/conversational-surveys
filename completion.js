@@ -579,15 +579,13 @@ module.exports = {
             }
 
             p += "\nXUX:"
-            console.log('language: ' + language)
-            console.log('prompt: ' + p)
 
             const result = await model.generateContent(p);
             const response = await result.response;
             const text = response.text();
 
             newquestion = text;
-            console.log(JSON.stringify(newquestion));
+           
             return (newquestion);
 
         } catch (error) {
@@ -605,10 +603,6 @@ module.exports = {
             'surveyResponse="' + oe + '"\n' +
             'candidateThemes=[' + topics + ']\n' +
             'matchingThemes='
-            console.log("PROMPT START")
-            console.log(p)
-            console.log("PROMPT END")
-            
 
             const result = await model.generateContent(p)
             const response = await result.response;
